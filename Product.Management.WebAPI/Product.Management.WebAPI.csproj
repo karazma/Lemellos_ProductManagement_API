@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="13.16.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Product.Management.BusinessLayer\Product.Management.BusinessLayer.csproj" />
+    <ProjectReference Include="..\Product.Management.Common\Product.Management.Common.csproj" />
+  </ItemGroup>
+
+
+</Project>

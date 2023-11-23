@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.5.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Product.Management.Common.MariaDataAccess\Product.Management.Common.MariaDataAccess.csproj" />
+    <ProjectReference Include="..\Product.Management.Common\Product.Management.Common.csproj" />
+  </ItemGroup>
+
+</Project>
